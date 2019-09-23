@@ -1,0 +1,17 @@
+<!--pages/components/productlist.wxml-->
+<view class="product">
+  <view class="title">
+    {{mydata.name}}
+  </view>
+  <view class="content">
+    <view class="con-item" data-id="{{item.id}}" wx:for="{{mydata.goodsList}}" bindtap="gotoDetail">
+      <image src="{{item.list_pic_url}}"></image>
+      <view>{{item.name}}</view>
+      <view>{{item.retail_price}}</view>
+    </view>
+    <view class="last-item con-item">
+      <view>{{mydata.name}}</view>
+      <image src="/images/icon_go_more.png"></image>
+    </view>
+  </view>
+</view>

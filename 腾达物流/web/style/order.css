@@ -1,0 +1,24 @@
+.banner{display: block;width: 1920px;height: 448px;position: relative;left: 50%;transform: translateX(-50%);z-index:20;}
+
+
+
+.box{width: 1920px;height: 400px;background:white;position: relative;left: 50%;transform: translateX(-50%);background: #f8f8f8;margin-bottom: 80px;}
+.box_bar{width: 1170px;height: 400px;margin: 0 auto;}
+.box_bar .ss{width: 32px;height: 200px;display: block;float: left;text-align: center;color: white;background: #bc1d1d;font-size: 32px;padding: 100px 24px;float: left;}
+.box_bar table{width: 1000px;height: 330px;border: none;margin-left: 170px;padding-top: 50px;padding-bottom: 20px;}
+.box_bar table span{font-size: 24px;display: block;padding: 28px 0;}
+.box_bar table input{width: 390px;height: 50px;display: block;background: #ededed;border: 0;padding-left: 10px;}
+.box_bar table input::-webkit-input-placeholder{color: white;font-size: 16px;line-height: 50px;}
+.box_bar table select{font-size: 16px;width: 400px;height: 50px;border: 0px;background: #ededed;padding: 0 10px;color: white}
+.box_bar table .s1{margin-left: 200px;}
+.bb{margin-top: 150px;}
+p{font-size: 16px;color: #dddddd;margin: 0 auto;text-align: center;line-height: 16px;height: 16px;}
+p input{display: inline-block;width: 16px;height: 16px;color:#dddddd;border: 0;}
+button{width: 400px;height: 50px;background-color: #bc1d1d;display: block;margin: 0 auto;border: 0;color: white;font-size: 16px;margin-top: 20px;margin-bottom: 150px;}
+
+
+
+
+
+
+

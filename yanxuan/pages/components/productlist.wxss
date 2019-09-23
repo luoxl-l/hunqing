@@ -1,0 +1,32 @@
+/* pages/components/productlist.wxss */
+.product {
+
+}
+.product .title {
+  text-align: center;
+  font-size: 26rpx;
+}
+
+.product .content {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.product .con-item {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product .con-item image {
+  width: 302rpx;
+  height: 302rpx;
+}
+
+.last-item image {
+    width: 60rpx !important;
+    height: 60rpx !important;
+}

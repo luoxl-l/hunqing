@@ -1,0 +1,119 @@
+.nav{width: 1200px;height: 80px;margin: 0 auto;}
+.nav img{height: 80px;width: auto;float: left;margin-left: -9px;}
+.box {
+    width: 100%;
+    height: 500px;
+    background: url(../images/bgg2.jpg) no-repeat ;
+    background-size: cover;
+    overflow: hidden;
+}
+ 
+.box .bm {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+   
+    margin-top: 20px;
+}
+
+.box .bm img {
+    height: 400px;
+    width: auto;
+    display: block;
+    margin-top: 20px;
+    float: left;
+    margin-left: 200px;
+}
+
+.tab-wrapper {
+    width: 370px;
+    height: 385px;
+    background: white;
+    box-sizing: content-box;
+    position: relative;
+   
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px
+}
+
+.tab-menu {
+    list-style: none;
+    width: 370px;
+    height: 385px;
+}
+
+.tab-menu li {
+    float: left;
+    width: 185px;
+    height: 60px;
+    font-size: 24px;
+    line-height: 60px;text-align: center;
+    cursor: pointer;
+}
+
+
+.tab-menu li.active {
+    background: #f55756;
+    color: white
+}
+
+.tab-menu li.active:hover {
+    background: #f55756;
+    color: white
+}
+
+.tab-content>div {
+    width: 370px;
+    height: 325px;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    background: #f55756;
+    padding-top: 40px;
+    z-index: 1;
+    display: none
+}
+.tab-content .dv{display: block;}
+
+.tab-content>div input {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    margin: 10px 31px;
+    padding-left: 8px;
+}
+
+.tab-content>div p {
+    width: 370px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 31px;
+    color: #666666;
+    font-size: 14px;
+}
+
+.tab-content>div .pa {
+    color: blue;
+    text-decoration: none;
+}
+
+.tab-content>div .bu {
+    width: 370px;
+    height: 90px;
+}
+
+.tab-content>div button {
+    width: 120px;
+    height: 40px;
+    background: white;
+    color: #f55756;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    float: left;
+    border: none;
+    margin-left: 44px;
+    margin-top: 30px;
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+/* pages/topic/topic.wxss */
+.topic-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topic-item image {
+  width: 100%;
+}

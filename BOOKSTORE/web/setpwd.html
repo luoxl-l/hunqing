@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style/setpwd.css">
+</head>
+
+<body>
+    <div class="wj">
+        <h2>忘记密码</h2>
+        <div class="box">
+            <div class="tit">
+                <ul>
+                    <li class="active">1.验证账号信息</li>
+                    <li>2.重置密码</li>
+                    <li>3.完成</li>
+                </ul>
+            </div>
+            <div class="cont">
+                <div class="active">
+                    <label id="err">请输入您的账号信息！</label>
+                    <p><span>用户名：</span><input type="text" id="tname" ></p>
+                    <p><span>手机号：</span><input type="text" id="tel" ></p>
+                    <button id="btn1">下一步</button>
+                </div>
+                <div>
+                    <label id="err1">请输入新的密码！</label>
+                    <p><span>密码：</span><input type="password" id="pwd" ></p>
+                    <p><span>确认密码：</span><input type="password" id="cpwd" ></p>
+                    <button id="btn2">下一步</button>
+                </div>
+                <div ><p class="ok">密码重置成功!</p><a href="login.html">马上去登录？</a></div>
+            </div>
+        </div>
+
+
+    </div>
+    <script type="text/javascript" src="js/setpwd.js"></script>
+</body>
+
+</html>

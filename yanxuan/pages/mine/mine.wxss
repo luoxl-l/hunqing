@@ -1,0 +1,28 @@
+/* pages/mine/mine.wxss */
+/* .mine {
+  display: flex;
+  align-items: center;
+} */
+.mine-top {
+  display: flex;
+  align-items: center;
+  height: 280rpx;
+  background: #333333;
+}
+
+.mine-top image {
+  margin: 0 20rpx;
+  width: 148rpx;
+  height: 148rpx;
+  border-radius: 50%;
+}
+
+.mine-top view {
+  display: flex;
+  flex-direction: column;
+}
+
+.mine-top view text{
+ font-size: 24rpx;
+ color: white; 
+}

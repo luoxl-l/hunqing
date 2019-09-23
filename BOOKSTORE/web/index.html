@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+     <script src="js/jquery.js"></script>
+     <script>
+            $(function(){
+                var count = 0 ;
+                var timer = setInterval(move,2000);
+                $('.banner').mouseenter(function(){
+                     clearInterval(timer);
+                 }).mouseleave(function(){
+                     timer=setInterval(move,2000);
+                 });
+                 $('#points dd').click(function(){
+                     count = $(this).index()-1;
+                     move(count);
+                 });
+                 function move(){
+                     count++;
+                      
+                     if(count==$("#points dd").size()){
+                         count=0;
+                     }
+                     $('.siders dd').eq(count).fadeIn().siblings().fadeOut();
+                     $('#points dd').eq(count).css('background','white').siblings().css('background','transparent');
+                 }
+                 function movePre(){
+                     count--;
+                     if(count==-1){
+                         count=$("#points dd").size()-1;
+                     }
+                     $('.siders dd').eq(count).fadeIn().siblings().fadeOut();
+                     $('#points dd').eq(count).css('background','white').siblings().css('background','transparent');
+                 }  
+            });
+        </script>
+</head>
+<body>
+    <div class="top">
+        <div class="top_bar">
+        <span class="ts">如需获得更多图书信息，请先登录!</span>
+        <a href="login.html" id="a1">登录</a>
+        <a href="register.html" id="a2">注册</a>
+        <a href="#" id="a3">退出</a>
+        <a id="a4">个人中心</a>
+        <div id="tip">请先登录!</div>
+    </div>
+    </div>
+    <div class="banner">
+            <dl class="siders">
+                <dd><img src="images/0.jfif" alt=""></dd>
+                <dd><img src="images/1.jfif" alt=""></dd>
+                <dd><img src="images/1.jpg" alt=""></dd>
+                <dd><img src="images/2.jpg" alt=""></dd>
+                <dd><img src="images/3.jpg" alt=""></dd>
+            </dl>
+            <dl id="points">
+                <dd></dd>
+                <dd></dd>
+                <dd></dd>
+                <dd></dd>
+                <dd></dd>
+            </dl>
+        </div>
+        <div id="rm">
+            <h2>热门推荐</h2>
+            <dl id="rt"></dl>
+        </div>
+        <div id="fl">所有分类</div>
+        <div id="book"></div>
+    <script type="text/javascript" src="js/index.js"></script>
+  
+</body>
+</html>

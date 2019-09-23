@@ -1,0 +1,9 @@
+<!--pages/topic/topic.wxml-->
+<view class="topic">
+  <view class="topic-item" wx:for="{{topicList}}">
+    <image src="{{item.scene_pic_url}}"></image>
+    <view>{{item.title}}</view>
+    <view>{{item.subtitle}}</view>
+    <view>{{item.price_info}}</view>
+  </view>
+</view>

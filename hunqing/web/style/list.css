@@ -1,0 +1,82 @@
+.crumb {width: 1200px; margin:0 auto; font-size: 14px;margin-top: 20px;}
+.crumb a{color: #666;margin-right:5px;}
+.crumb a:hover{color: #f55756;}
+
+.box{width: 1200px;height: 3100px;margin: 0 auto;margin-top: 40px;}
+.box .lf{width: 1000px;height: 3000px;float: left;}
+.box .lf .tit{width: 968px;height: 32px;margin-bottom: 20px;float: left;}
+.box .lf .tit .tag em{float: left;display: inline-block;line-height: 32px;margin-right:8px;}
+.box .lf .tit .tag a{line-height: 30px;padding: 0 10px;border: 1px solid #e7e7e7;color: #f55756;float: left;border-radius: 8px;display: inline-block;}
+.box .lf .tit .leihz2{width: 90px;height: 24px;float: right;border: 1px solid #e7e7e7;line-height: 24px;background: #ffffff;margin-top: 3px;text-align: center;position: relative;cursor: pointer;}
+.box .lf .tit .leihz2 div {width: 90px;line-height: 24px;border: 1px solid #e7e7e7;background: #fff;padding: 0;display: none;}
+.box .lf .tit .leihz2:hover div{display: block;}
+.box .lf .tit .leihz2 div span {width: 90px;text-align: left;text-indent: 10px;color: #666;display: block;}
+.box .lf .tit .leihz2 div span:hover{background: #f5f5f5;}
+.box .lf .bxc{width: 1000px;height: 3192px;float: left;}
+.box .lf .bxc dl{width: 220px;margin: 0px 30px 30px 0px;float: left;}
+.box .lf .bxc dl dt img{width: 220px;height: 220px;border: none;}
+.box .lf .bxc dl dt img:hover{opacity: 0.9;}
+.box .lf .bxc dl dd{padding: 10px;border:1px solid #e8e8e8;border-top: 0;}
+.box .lf .bxc dl dd p{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.box .lf .bxc dl dd p.pri .fl{color: #f55756;margin-top: 6px;font-size: 14px;}
+.box .lf .bxc dl dd p.pri .fl em{font-size: 18px;}
+.box .lf .bxc dl dd p.pri span{color: #999999;font-size: 12px;margin-top: 11px;}
+.box .lf .bxc dl dd p.pri .fr .i4{font-size: 12px;padding: 0 5px;}
+
+
+
+
+.box .lr{width: 200px;height: 1406px;float: right}
+.box .lr h4{width: 200px;height: 20px;font-size: 20px;color: #333333;border-left: 3px solid #f55756;padding-left: 10px;line-height: 20px;}
+.box .lr .bxr{width: 200px;height: 1386px;}
+.box .lr .bxr dl{width: 200px;height: 257px;margin-top: 20px;}
+.box .lr .bxr dl dt{width: 200px;height: 200px;}
+.box .lr .bxr dl dt img{width: 200px;height: 200px;border: none;}
+.box .lr .bxr dl dt img:hover{opacity: 0.8;}
+.box .lr .bxr dl dd{padding: 10px;border:1px solid #e8e8e8;border-top: 0;}
+.box .lr .bxr dl dd p{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.box .lr .bxr dl dd p.pri .fl{color: #f55756;margin-top: 6px;font-size: 14px;}
+.box .lr .bxr dl dd p.pri .fl em{font-size: 18px;}
+.box .lr .bxr dl dd p.pri span{color: #999999;font-size: 12px;margin-top: 11px;}
+.box .lr .bxr dl dd p.pri .fr .i4{font-size: 12px;padding: 0 5px;}
+  
+
+
+.pages {
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    clear: both;
+    padding-bottom: 80px;
+}
+.pages ul a.current {
+    background: #f55756;
+    color: #fff;
+    border: 1px solid #f55756;
+    z-index: 1;
+}
+.pages ul a:first-child {
+    margin-left: 0;
+}
+.pages ul{
+    width: auto;
+    float: left;
+    margin-left: 460px;
+}
+.pages ul a {
+    line-height: 34px;
+    min-width: 34px;
+    display: inline-block;
+    margin-left: -1px;
+    border: 1px solid #e7e7e7;
+    position: relative;
+    
+}
+.pages span {
+    width: 78px;
+    height: 34px;
+    border: 1px solid #e7e7e7;
+    line-height: 34px;
+    color: #666;
+    float: left;
+}

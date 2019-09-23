@@ -1,0 +1,30 @@
+body{padding-bottom: 1rem;}
+
+
+header .icon-service-directory{color: #f55756;}
+header {border-bottom: 0.02rem solid #e8e8e8;}
+
+.nav{display: flex;flex-wrap: wrap;justify-content: space-around;align-content: space-around;width: 100%;height:auto;max-width: 7.5rem;min-width: 3.2rem;margin: 0 auto;margin-top: 0.2rem}
+.nav a{width: 1.30rem;height: 1.62rem;display: block;}
+.nav a img{width: 1.10rem;height: 1.1rem;display: block;margin:  0 auto;border-radius: 50%;}
+.nav a p{width: 1.30rem;height: auto;font-size: 0.24rem;text-align: center;}
+
+
+.gl{width: 100%;height:auto;max-width: 7.5rem;min-width: 3.2rem;margin: 0 auto;}
+.gl h2{margin-left: 0.3rem;font-size: 0.40rem;font-weight: bold;}
+.gl .con{padding: 0 0.3rem;box-sizing: border-box;}
+.gl .con .tent{overflow: hidden;width: 100%;height: 100%;}
+.gl .con .tent a{display: block;height: 1.72rem;width: 100%;border-bottom: 1px solid #e8e8e8;padding: 0.29rem 0;}
+.gl .con .tent a img{width: 1.72rem;height: 1.72rem;border-radius: 0.15rem;float: left;}
+.gl .tent a div{width: 4.9rem;height: 1.72rem;float: right;}
+.gl .tent a div h2{font-size: 0.32rem;color: #000000;font-weight: 600;overflow: hidden; text-overflow: ellipsis;white-space: nowrap;margin-left: 0;height: 0.4rem;}
+.gl .tent a div p{font-size: 0.24rem;color: #666666;width: 1.4rem;margin-top: 1.02rem;height: 0.3rem;}
+.gl .tent a div i{font-size: 0.26rem;color: blue;padding-right: 0.34rem;margin-top: 0.1rem;float: left;}
+.gl .tent a div span{font-size: 0.26rem;color: #666666;float: right;margin-top: -0.38rem;}
+
+
+
+.footer{display: flex;justify-content: space-around;width: 100%;height:auto;max-width: 7.5rem;min-width: 3.2rem;border-top: 1px solid #e8e8e8;position: fixed;bottom: 0;background: white;left: 50%;transform: translateX(-50%)}
+.footer a{width: 1.30rem;height: 1rem;display: block;}
+.footer a img{width: 0.6rem;height: 0.6rem;display: block;margin:  0 auto;}
+.footer a p{width: 1.30rem;height: auto;font-size: 0.24rem;text-align: center;}

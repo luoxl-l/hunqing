@@ -1,0 +1,99 @@
+/* pages/cart/cart.wxss */
+.cart-item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+  align-items: center;
+  border-bottom: #ccc;
+}
+
+.i-left {
+  display: flex;
+  align-items: center;
+}
+
+.i-left .select {
+  width: 34rpx;
+  height: 34rpx;
+  /* wxss 中不能包含本地图片！！！ */
+  background: url('http://nos.netease.com/mailpub/hxm/yanxuan-wap/p/20150730/style/img/icon-normal/checkbox-0e09baa37e.png') no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.active {
+  width: 34rpx;
+  height: 34rpx;
+  /* wxss 中不能包含本地图片！！！ */
+  background: url('http://nos.netease.com/mailpub/hxm/yanxuan-wap/p/20150730/style/img/icon-normal/checkbox-checked-822e54472a.png') no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.i-left image {
+  width: 124rpx;
+  height: 124rpx;
+  background: #F4F4F4;
+  margin: 0 15rpx;
+}
+
+.i-left .desc {
+  display: flex;
+  flex-direction: column;
+}
+
+.xiadan {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between
+}
+
+.xiadan .x-left,
+.xiadan .x-right {
+  display: flex;
+  align-items: center;
+}
+
+.xiadan .x-left .select{
+  width: 34rpx;
+  height: 34rpx;
+  /* wxss 中不能包含本地图片！！！ */
+  background: url('http://nos.netease.com/mailpub/hxm/yanxuan-wap/p/20150730/style/img/icon-normal/checkbox-0e09baa37e.png') no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.xiadan .x-left text {
+  font-size: 24rpx;
+}
+
+.xiadan .x-right text {
+  font-size: 24rpx;
+  color: #B4282D;
+}
+
+.xiadan .x-right view {
+  width: 200rpx;
+  height: 100rpx;
+  background: #B4282D;
+  color: white;
+  text-align: center;
+  line-height: 100rpx;
+}
+
+
+
+
+.delete {
+  width: 100rpx;
+  background: #B4282D;
+  color: white;
+  line-height: 164rpx;
+  height: 164rpx;
+  position: absolute;
+  right: -100rpx;
+  top: 0;
+  text-align: center;
+  font-size: 24rpx;
+}

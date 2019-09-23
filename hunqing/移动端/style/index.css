@@ -1,0 +1,68 @@
+
+
+
+.banner { position: relative;width: 100%;height: 2.78rem;max-width: 7.5rem;min-width: 3.2rem;margin: 0 auto;}
+.banner::after{content: "";position: absolute;left: 0;bottom: 0;z-index: 20;width: 100%;height: 0.28rem;background: url(../images/lunbobt.png) 0 0 no-repeat;background-size: 100% 100%;}
+.banner .swiper-container .swiper-slide {height: 100%;z-index: 1;overflow: hidden;}
+.banner .swiper-container .swiper-slide a {display: block;width: 6.86rem;height: 2.76rem;overflow: hidden;padding: 0 0.3rem;}
+.banner .swiper-container .swiper-slide a img { width:100%;height: 100%;border-radius: 0.15rem 0.15rem 0 0;}
+.banner .swiper-pagination-bullets{bottom: 0.2rem;left: 0;position: absolute;z-index: 30;text-align: center;}
+.banner .swiper-pagination-bullets .swiper-pagination-bullet{background: #999999;display: inline-block;width: 0.1rem;height: 0.1rem;border-radius: 100%;}
+.banner .swiper-pagination-bullets .swiper-pagination-bullet-active{background: white}
+
+.nav{display: flex;flex-wrap: wrap;justify-content: space-around;align-content: space-around;width: 100%;height:auto;max-width: 7.5rem;min-width: 3.2rem;margin: 0 auto;margin-top: 0.2rem}
+.nav a{width: 1.30rem;height: 1.62rem;display: block;}
+.nav a img{width: 1.30rem;height: auto;display: block;margin:  0 auto;}
+.nav a p{width: 1.30rem;height: auto;font-size: 0.24rem;text-align: center;}
+
+.gj{width: 100%;height: 2.7rem;max-width: 7.5rem;min-width: 3.2rem;margin: 0 auto;margin-top: 0.2rem;}
+.gj h2{margin-left: 0.3rem;font-size: 0.40rem;font-weight: bold;}
+.gj .swiper-container{ padding: 0.3rem; width: 100%; height: 100%; box-sizing: border-box;}
+.gj .swiper-container .swiper-slide {width: 2.36rem;height:1.40rem;border-radius: 0.15rem;box-shadow: 0 0 0.12rem  rgba(0, 0, 0, 0.2);position: relative;}
+.gj .swiper-container .swiper-slide a{width: 100%;height: 100%;display: block;}
+.gj .swiper-container .swiper-slide a h3{font-size: 0.3rem;color: #000000;font-weight: 600;padding-left: 0.3rem;padding-top: 0.26rem;padding-bottom: 0.1rem;}
+.gj .swiper-container .swiper-slide a p{font-size: 0.24rem;color: #666666;padding-left: 0.3rem;}
+.gj .swiper-container .swiper-slide::after{content: "";position: absolute;bottom: 0.18rem;right: 0.24rem;width: 0.44rem;height: 0.44rem;background: no-repeat;background-size: contain;}
+.gj .swiper-container .s1::after{background-image: url(../images/gj1.png)}
+.gj .swiper-container .s2::after{background-image: url(../images/gj2.png)}
+.gj .swiper-container .s3::after{background-image: url(../images/gj3.png)}
+.gj .swiper-container .s4::after{background-image: url(../images/gj4.png)}
+.gj .swiper-container .s5::after{background-image: url(../images/gj5.png)}
+.gj .swiper-container .s6::after{background-image: url(../images/gj6.png)}
+
+
+.yp{width: 100%;height: 5.2rem;max-width: 7.5rem;min-width: 3.2rem;margin: 0 auto;margin-top: 0.2rem;}
+.yp .tit{width: 100%;height: 0.4rem;line-height: 0.4rem;margin-bottom: 0.4rem;}
+.yp .tit h2{margin-left: 0.3rem;font-size: 0.40rem;font-weight: bold;float: left;}
+.yp .tit a{color: #999999;font-size: 0.26rem;float: right;margin-right: 0.3rem;display: inline-block;width: 0.6rem;height: 100%;position: relative;z-index: 9999;}
+.yp .con{padding: 0 0.3rem;box-sizing: border-box;}
+.yp .con .tent{border-radius: 0.15rem;overflow: hidden;}
+.yp .con .tent .a1{display: block;width:50% ;height:2rem ;float: left;}
+.yp .con .tent .a2{display: block;width:50% ;height:4rem ;float: right;}
+
+.mt{height: 7.44rem;}
+.mt .con .tent{height: 3.6rem;width: 100%;position: relative;}
+.mt .con .tent .m1{width: 4.42rem;height: 3.04rem;border-radius: 0.15rem;display: block;z-index: 20;position: absolute;top: 0;left: 0;}
+.bt{width: 6.48rem;height: 3rem;position: absolute;border-radius: 0.15rem;right: 0.12rem;top: 0.4rem;box-shadow: 0 0 0.12rem rgba(0, 0, 0, 0.2);z-index: 10;}
+.bt .rb{float: right;margin-right: 0.32rem;margin-top: 0.76rem;font-size: 0.34rem}
+.bt i{width: 0.56rem;height: 0.56rem;border-radius: 50%;background: #f55756;display: block;}
+.bt .icon-youjiantou{color: white;font-size: 0.4rem;text-align: center;line-height: 0.56rem;margin-top: 0.4rem}
+.bf{width: 100%;height: auto;display: flex;justify-content: space-between;}
+.bf dd{width:2.16rem ;height:2.44rem ;float: left;border-radius: 0.15rem;box-shadow: 0 0 0.12rem rgba(0, 0, 0, 0.2);overflow: hidden;}
+.bf dd img{display: block;height: 1.62rem;width: 100%;}
+.bf dd p{height: 0.82rem;width: 100%;line-height: 0.82rem;text-align: center;font-size: 0.24rem}
+
+.gl{height: 14.2rem;}
+.gl .tit{margin-bottom: 0;}
+.gl .tent{border-radius: 0;}
+.gl .tent a{width: 100%;height: 2.42rem;display: block;position: relative;margin: 0.2rem 0;}
+.gl .tent a img{width: 2.34rem;height: 2.2rem;display: block;position: absolute;top: 0.1rem;left: 0;border-radius: 0.15rem}
+.gl .tent a div{width: 4.68rem;height: 2.42rem;border-radius: 0.15rem; box-shadow: 0 0 0.12rem rgba(0, 0, 0, 0.2);position: absolute;top: 0;left: 2.12rem;z-index: 20;}
+.gl .tent a div h2{font-size: 0.32rem;color: #000000;font-weight: 600;margin-top: 0.46rem;padding: 0 0.62rem;height: 0.8rem;overflow: hidden; text-overflow: ellipsis;display:-webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp:2;}
+.gl .tent a div p{font-size: 0.24rem;color: #666666;width: 2.44rem;float: left;margin-left: 0.62rem;margin-top: 0.52rem;}
+.gl .tent a div i{width: 0.56rem;height: 0.56rem;border-radius: 50%;background: #f55756;display: block;float: right;margin-top: 0.32rem;margin-right: 0.3rem;}
+.gl .tent a div .icon-youjiantou{color: white;font-size: 0.4rem;text-align: center;line-height: 0.56rem}
+.gl .tent a div::before{content: "";position: absolute;left:-0.42rem;top:0;width: 0.64rem;height: 2.45rem;background: url(../images/glbt1.png)  no-repeat 0 0;background-size: 100% 100%;overflow: hidden;z-index: 10;}
+
+.footer{width: 100%;height: 1.4rem;background: #f2f3f7;text-align: center;max-width: 7.5rem;min-width: 3.2rem;margin: 0 auto;padding-top: 0.6rem}
+.footer p{font-size: 0.24rem;color: #999999;line-height: 0.4rem}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "productlist": "/pages/components/productlist"
+  },
+  "navigationBarTitleText": "首页"
+}

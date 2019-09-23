@@ -1,0 +1,28 @@
+.bxx{background: #f5f5f5;width: 100%x;height: auto;}
+.box{width: 1200px;margin: 0 auto;padding-top: 50px;height: auto;}
+.box .slideTxtBox{width: 100%;height: 100%;}
+.box .slideTxtBox .hd{width: 224px;height: 324px;float: left;background: white;}
+.box .slideTxtBox .hd ul{width: 100%;height: 100%;}
+.box .slideTxtBox .hd li{height: 80px;position: relative;border-bottom: 1px solid #e8e8e8;margin-left: 24px;margin-right: 24px;width: 176px;}
+.box .slideTxtBox .hd li a{font-size: 16px;color:#333333;line-height: 80px;cursor: pointer;box-sizing: border-box;}
+.box .slideTxtBox .hd li a:hover{color: #f55756;}
+.box .slideTxtBox .hd li.on a{color: #f55756}
+.box .slideTxtBox .hd li.on::before {content: '';position: absolute;left: -24px;width: 4px;height: 24px;top: 28px;background: #f55756;}
+.box .slideTxtBox .bd{background: white;width: 936px;height: auto;min-height: 500px;margin-left: 40px;box-sizing: border-box;float: right;padding: 40px;margin-bottom: 50px;}
+.protocol_title {font-size: 24px;font-weight: bold;line-height: 24px;}
+.protocol_date {font-size: 16px;color: #333;margin-top: 10px;line-height: 18px;}
+.mt30 {margin-top: 30px;}
+.protocol_content_item {font-size: 14px;color: #333;line-height: 24px; margin-bottom: 12px;}
+.protocol_item_title {font-size: 16px;font-weight: bold;color: #000;line-height: 18px;margin: 30px 0 16px;}
+.protocol_brand strong {font-weight: bold;}
+.bxx .clear{clear: both;}
+
+
+
+
+
+
+
+
+
+

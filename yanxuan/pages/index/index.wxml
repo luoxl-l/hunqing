@@ -1,0 +1,38 @@
+<!--index.wxml-->
+<view class="home">
+  <view class="h-search">
+    <view class="address">{{address}}</view>
+    <view class="search">
+      <image src="/images/search.png"></image>
+      <input type="text" placeholder="搜索商品"></input>
+    </view>
+  </view>
+  <swiper class="sw" indicator-dots="true" autoplay="true" circular="true">
+    <swiper-item wx:for="{{allInfo.banner}}" wx:key="{{index}}">
+      <image src="{{item.image_url}}"></image>
+    </swiper-item>
+  </swiper>
+  <view class="h-cate">
+    <navigator open-type="switchTab" url="{{item.url}}" wx:for="{{allInfo.channel}}">
+      <view class="c-item">
+        <image src="{{item.icon_url}}"></image>
+        <text>{{item.name}}</text>
+      </view>
+    </navigator>
+  </view>
+  <view class="n-first">
+    <scroll-view scroll-x="true">
+      <view class="sv-w-item">
+        <view class="sv-item" wx:for="{{allInfo.newGoods}}">
+          <image src="{{item.list_pic_url}}"></image>
+          <text class="title">{{item.name}}</text>
+          <text class="desc">{{item.goods_brief}}</text>
+          <text class="price">{{item.retail_price}}</text>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+  <block wx:for="{{allInfo.newCategoryList}}">
+    <productlist mydata="{{item}}" />
+  </block>
+</view>

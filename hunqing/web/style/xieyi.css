@@ -1,0 +1,29 @@
+
+.content{width: 1100px;height: auto;background: #ebeaea; margin: 0 auto;padding: 20px 50px 60px 50px;}
+h2{font-size: 18px;line-height: 40px;font-weight: 600;border-bottom: 1px solid #e7e7e7;padding-bottom: 20px;font-size: 20px;}
+.main{padding: 0;border-top: 2px solid white}
+.regular{margin-top: 30px;}
+.title{width: 730px;height: 48px;line-height: 48px;font-size: 16px;color: #fff;font-weight: 600;background: #aac8ed;text-align: center;}
+h3{font-size: 16px;font-weight: 600;}
+h5{font-weight: 600;/* margin: 18px 0; */}
+.regulations{margin-top: 4px;}
+p{line-height: 28px;}
+p:not(.font_line):not(.sec_line){text-indent: 20px;}
+td{border: 1px solid #e7e7e7;padding: 13px 19px;text-align: center;}
+tr td:nth-child(1){width: 76px;text-align: left;}
+tr td:nth-child(2){width: 136px;}
+tr td:nth-child(3){width: 136px;}
+.regulations1 tr td:nth-child(2){width: 540px;}
+/*tr{height: 40px;}*/
+table{border-collapse: collapse; border: none;width: 730px;}
+table thead tr{border: 1px solid #e7e7e7;background-color: #f4f5fa;}
+table thead tr td{border: none;color: #999;}
+.tip{font-size: 12px;color: #999;margin-top: 12px;}
+.dec{margin-top: 22px;}
+.items-tip{width: 220px;height: 30px;text-align: center;line-height: 30px;background-color: #ff705e;font-size: 16px;color: #fff;border-top-right-radius: 100px;border-bottom-right-radius: 100px;margin-top: 35px;}
+.bottom-note{margin-top: 40px;text-align: right;}
+.box_top{
+    padding:10px 0;
+}
+.font_line{font-weight: 900;line-height: 36px;font-size: 18px;}
+.weight{font-weight: 700;display: inline;}

@@ -1,0 +1,5 @@
+<!--pages/login/login.wxml-->
+<!-- 
+  在小程序最新版本中，不允许强制授权。
+ -->
+<button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">请登录</button>

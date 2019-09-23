@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 1100px;
+    height: 393px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 38px;
+    z-index: 20;
+    margin-bottom: 30px;
+}
+
+.siders {
+    width: 1100px;
+    height: 393px;
+    list-style: none
+}
+
+.siders dd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1100px;
+    height: 393px;
+    list-style-type: none
+}
+
+.siders dd img {
+    width: 1100px;
+    height: 393px;
+    z-index: 10;
+}
+
+.siders dd:first-child {
+    display: block;
+}
+
+#points {
+    height: 20px;
+    margin: 0 auto;
+    position: absolute;
+    top: 350px;
+    left: 450px;
+}
+
+#points dd {
+    float: left;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: transparent;
+    margin: 8px;
+    cursor: pointer;
+    border: 2px solid #cccccc;
+}
+
+#points dd:first-child {
+    background: white;
+}
+
+.top {
+    width: 100%;
+    height: 38px;
+    background: orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 80;
+}
+
+.top_bar {
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.ts {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    float: left;
+    width: 260px;
+    color: white
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    float: left;
+}
+
+.a4 {
+    text-decoration: underline
+}
+
+#a1:hover {
+    text-decoration: underline;
+}
+
+#a2:hover {
+    text-decoration: underline;
+}
+
+#a3:hover {
+    text-decoration: underline;
+}
+
+#a1 {
+    width: 100px;
+    height: 38px;
+    line-height: 38px;
+    margin-left: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: block;
+}
+
+#a2 {
+    width: 40px;
+    height: 38px;
+    line-height: 38px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.yc {
+    display: none
+}
+
+.xs {
+    display: block
+}
+
+#a3 {
+    width: 40px;
+    height: 38px;
+    line-height: 38px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#a4 {
+    width: 70px;
+    height: 38px;
+    line-height: 38px;
+    margin-left: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    z-index: 80;
+}
+
+#tip {
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    top: 37px;
+    right: -1px;
+    background-color: white;
+    color: orangered;
+    line-height: 60px;
+    text-align: center;
+    font-size: 14px;
+    z-index: 40;
+    border: 1px solid orangered;
+}
+
+.ta {
+    color: orangered;
+    background: white;
+    text-decoration: none
+}
+
+#rm{
+    width: 1100px;
+    height: 590px;
+    margin: 0 auto;
+}
+#rm h2{
+    width: 1100px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 24px;
+    color: orangered;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+#rm dl{
+    width: 1100px;
+    height: 530px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+}
+
+#rm dl dd{
+    width: 200px;
+    height: 240px;
+    overflow: hidden;
+    
+}
+#rm dl dd .d2{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+}
+#rm dl dd .d2 img{
+    height: 200px;
+    width: 200px;
+    display: block;
+    position: relative;
+    z-index: 20;
+    /* overflow: hidden; */
+}
+#rm dl dd p{
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    color: #666666;
+    text-align: center;
+    background: white;
+    
+}
+
+#rm dl dd .d2 div{
+    opacity: 0.6;
+    background: black;
+    height: 180px;
+    width: 180px;
+    padding: 10px;
+    position: absolute;
+    top: 160px;
+    left: 0;
+    color: white;
+    overflow: hidden;
+    white-space: wrap;
+    text-overflow: ellipsis;
+    z-index: 90;
+    line-height: 30px
+}
+#rm dl dd .d2:hover div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 2s ease;
+}
+#fl {
+    width: 1100px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 24px;
+    color: orangered;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+#book {
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#book .ul1 {
+    width: 80px;
+    height: auto;
+    /* position: sticky;
+    top: 80px; */
+    float: left;
+}
+
+#book li {
+    list-style: none;
+    height: 30px;
+    width: 80px;
+    line-height: 30px;
+    cursor: pointer;
+    padding-left: 14px;
+}
+
+#book li:hover {
+    color: orangered
+}
+
+.active1 {
+    background: orangered;
+    color: white;
+}
+
+#book .cont {
+    width: 960px;
+    float: left;
+    /* position: absolute; */
+    margin-left: 50px;
+    margin-top: -14px;
+    z-index: 20;
+}
+
+#book .divs {
+    width: 960px;
+    height: 242px;
+    margin: 20px 0px;
+    background: #f5f5f5;
+}
+
+.divs img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 21px 20px
+}
+
+.divs .p1 {
+    float: left;
+    margin-right: 0;
+    width: 700px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.divs .p1 .s1 {
+    font-size: 18px;
+    color: orangered;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.divs .p1 .s2 {
+    font-size: 18px;
+    color: blue;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.divs .p1 .s3 {
+    font-size: 18px;
+    color: blue;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.divs .p2 {
+    float: left;
+    margin-right: 0;
+    width: 700px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.divs .p3 {
+    float: left;
+    margin-right: 0;
+    width: 700px;
+    height: 60px;
+    line-height: 30px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
+
+.divs .p4 {
+    float: left;
+    margin-right: 0;
+    width: 700px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.divs .p4 .s4 {
+    font-size: 14px;
+    color: orange;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    width: 150px;
+}
+
+.divs .p4 .s5 {
+    font-size: 14px;
+    color: #cccccc;
+    float: right;
+    height: 24px;
+    line-height: 24px;
+    width: 110px;
+}
+
+.divs button {
+    display: block;
+    float: left;
+    border: none;
+    width: 100px;
+    height: 34px;
+    background: orangered;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}

@@ -1,0 +1,52 @@
+body{background: #f2f3f7;}
+
+.top{width: 100%;height: 0.92rem;max-width: 7.5rem;min-width: 3.2rem;margin: 0 auto;border-bottom: 0.02rem solid #dad8d8;background: white;z-index: 20;position: fixed;top: 0;left: 50%;transform: translateX(-50%);}
+.top img{width: auto;height: 0.92rem;display: inline-block;float: left;margin-left: 0.2rem;}
+.top>i{display: inline-block;float: right;margin-right: 0.2rem;}
+.top .icon-service-directory{color: #f55756;font-size: 0.4rem;line-height: 0.92rem;}
+.top .find{float: left;width: 3.86rem;height: 0.56rem;background: #f2f3f7;margin-top: 0.18rem;border-radius: 0.05rem;overflow: hidden;margin-left: 0.5rem;}
+.top .find .icon-sousuo{color: #999999;font-size: 0.4rem;line-height: 0.56rem;}
+.top .find i{display: inline-block;float: left;width: 0.56rem;padding-left: 0.1rem;}
+.top .find .tx1{color: #999999;font-size: 0.24rem;float: right;;display: inline-block;width: 3.2rem;background: #f2f3f7;line-height: 0.56rem}
+
+
+.nav{display: flex;flex-wrap: wrap;justify-content: space-around;align-content: space-around;width: 100%;height:auto;max-width: 7.5rem;min-width: 3.2rem;margin: 0 auto;margin-top:0.92rem;background: white;padding: 0.2rem 0;}
+.nav a{width: 1.30rem;height: 1.62rem;display: block;}
+.nav a img{width: 1.00rem;height: auto;display: block;margin:  0 auto;}
+.nav a p{width: 1.30rem;height: auto;font-size: 0.24rem;text-align: center;margin-top: 0.1rem;}
+
+.box{height: auto;width: 100%;max-width: 7.5rem;min-width: 3.2rem;margin: 0 auto;margin-top: 0.2rem;background: white;}
+.box .tit{height: 0.9rem;width: 100%;border-bottom: 0.01rem solid #f2f3f7;}
+.box .tit dl{width:1.87rem;height: 0.9rem;position: relative;font-size: 0.32rem;color: #474747;line-height: 0.9rem;float: left;}
+.box .tit dl:hover dd{display: block}
+.box .tit dl:hover dt{color: #f55756;}
+.box .tit dl dt{width:1.86rem;height: 0.9rem;position: relative;text-align: center;}
+.box .tit dl dt::after{content: "";width: 0.01rem;height: 0.6rem;background: #f2f3f7;position: absolute;top: 0.15rem;left: 1.88rem;display: block;}
+.box .tit dl dt:nth-child(4)::after{display: none}
+.box .tit dl dt i {font-size: 0.30rem}
+.box .tit dl:hover i{transform: rotate(180deg);color: #f55756;}
+.box .tit dl dd{height: auto;width:7.5rem;background: white;}
+.d1{display: none;position: absolute;top: 0.9rem;left: 0.01rem;}
+.d1 a{border-bottom: 0.01rem solid #f2f3f7;width: 100%;padding-left: 0.36rem;height: 0.6rem;font-size: 0.3rem;display: block;line-height: 0.6rem}
+.d1 a.on{color: #f55756;}
+.d2{display: none;position: absolute;top: 0.9rem;left: -1.87rem;}
+.d2 a{border-bottom: 0.01rem solid #f2f3f7;width: 100%;padding-left: 0.36rem;height: 0.6rem;font-size: 0.3rem;display: block;line-height: 0.6rem}
+.d3{display: none;position: absolute;top: 0.9rem;left: -3.74rem;}
+.d3 a{border-bottom: 0.01rem solid #f2f3f7;width: 100%;padding-left: 0.36rem;height: 0.6rem;font-size: 0.3rem;display: block;line-height: 0.6rem}
+.d3 a.on{color: #f55756;}
+.d4{display: none;position: absolute;top: 0.9rem;left: -5.62rem;}
+.d4 h3{margin-left: 0.36rem;}
+.d4 a{width: 1.2rem;padding: 0.1rem;height: 0.3rem;font-size: 0.24rem;display: inline-block;line-height: 0.3rem;background: #f2f3f7;margin-left: 0.36rem;text-align: center;border-radius: 0.05rem;}
+.d4 a:checked{color: white;background: #f55756;}
+.d4 input{width: 3.75rem;height: 1rem;float: left;display: block;text-align: center;line-height: 1rem;font-size: 0.36rem;margin-top: 0.4rem;}
+.pu1{color:#f55756;background: white}
+.pu2{color: white;background: #f55756;}
+.box .nr{width: 100%;height: 4.1rem;border-bottom: 0.01rem solid #f2f3f7;}
+.box .nr h3{font-size: 0.34rem;font-weight: bold;padding-left: 0.2rem;line-height: 0.6rem;height: 0.6rem;margin-top: 0.2rem;}
+.box .nr .p1{padding-left: 0.2rem;font-size: 0.30rem;color: #666666;line-height: 0.6rem;height: 0.6rem}
+.box .nr .p2{padding: 0.2rem;width: 100%;height: 1.80rem;}
+.box .nr .p2 img{width: 2.26rem;height: 1.80rem;display: block;float: left;padding-right: 0.1rem;}
+.box .nr .p3{padding: 0rem 0.2rem;width: 100%;height: 0.6rem;}
+.box .nr .p3 .s1{float: left;color: #f55756;font-size: 0.36rem;width: 1.2rem;line-height: 0.6rem}
+.box .nr .p3 .s2{float: left;color: #666666;font-size: 0.30rem;margin-left: 2.4rem;width: 2.4rem;line-height: 0.6rem}
+.box .nr .p3 .s3{float: left;color: rgb(61, 61, 250);font-size: 0.3rem;width: 1rem;line-height: 0.6rem;}

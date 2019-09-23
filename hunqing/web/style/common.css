@@ -1,0 +1,102 @@
+
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,
+table,th,td,header,nav,aside,article,section{margin:0;padding:0;} 
+table {border-collapse:collapse;border-spacing:0;} 
+fieldset,img {border:0;} 
+em,strong,th,i,b {font-style:normal;font-weight:normal;} 
+ol,ul,li {list-style:none} 
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;} 
+:focus{ outline: none;}
+a{text-decoration: none;cursor: pointer;outline: none}
+a:link,a:visited{text-decoration: none;color: black;outline: none}
+a:hover{ color: #f55756;outline: none}
+.fl{ float: left;}
+.fr{float: right;}
+.f14{ font-size: 14px;}
+.f16{ font-size: 16px;}
+.clear{ clear: both;}
+.clearfix:after{content: "";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix{ zoom: 1;/*触发低版本浏览器的after属性*/}
+body{height: auto;font-family: "微软雅黑",Arial;min-width: 1200px;overflow: scroll;}
+
+
+/* top */
+.top{width: 100%;height: 34px;background-color: #f5f5f5;font-size: 12px;color: #666666}
+.top a{color: #666666;display: block;height: 34px;}
+.top a:hover{color:#f55756;}
+.topbar{width: 1200px;height: 100%;margin: 0 auto;}
+.topbar span{float: left;line-height: 34px;}
+.topbar ul{width: 380px;height: 100%;float: right;}
+.topbar ul li .on{color: #f55756;border-bottom: 2px solid #f55756;}
+.topbar ul li{float: left;padding-left: 20px;line-height: 34px;}
+.topbar ul li:last-child{float: right;position: relative;}
+.topbar ul li:last-child::before{content: "|";color: #666666;font-size: 12px;line-height: 34px;position: absolute;top: 0;left: -6px;}
+/* top end */
+
+/* nav */
+.nav{width: 1200px;height: 80px;margin: 0 auto;}
+.nav .logo{height: 80px;width: auto;float: left;margin-left: -9px;}
+.nav .nb{width: 650px;height: 50px;margin-top: 15px;float: left;margin-left: 70px;}
+.nav .nb a{width: auto;height: 50px;display: block;float: left;line-height: 50px;margin: 0 28px;font-size: 16px;}
+.nav .nb a:hover{color: #f55756;border-bottom: 2px solid #f55756;}
+.nav .nb #pag{color: #f55756;border-bottom: 2px solid #f55756;}
+.nav .nr{height: 50px; width: 260px;float: right;margin-top: 20px;}
+.nav .nr .tx1{height: 40px;width: 200px;float: left;background-color: #f5f5f5;border: none;color: #999999;font-size: 16px;padding-left: 20px;}
+.nav .nr .ser1{width: 40px;height: 40px; background-color:#f55756;float: right;border: none }
+.nav .nr .ser1 .i1{color: white;font-size: 30px}
+/* nav end */
+
+/* box */
+/* .box{margin: 0 auto;width: 1200px;height: 200px;} */
+/* box end */
+
+/* footer */
+.footer{width: 100%;height:360px;background-color: #3a3939;}
+.foot_top{width: 1200px;height: 230px; margin:0 auto;border-bottom: 1px solid grey; }
+.foot_top ul{width: 1080px;height: 230px;}
+.foot_top ul li{list-style: none;width: 80px;height: 150px;margin-top: 30px;float: left;margin-right: 190px;}
+.foot_top a{color: white}
+.foot_top a:hover{color: #f55756}
+.foot_top dl dt{font-size: 18px;color: white;line-height: 50px;font-weight: bolder}
+.foot_top dl dd{font-size: 12px;color:#999999;line-height: 28px;}
+.foot_top .fr{width: 110px;height:230px;float: right;color:white;font-size: 18px;line-height: 50px;margin-top:-210px; }
+.foot_top .fr img{width: 110px;height: auto;}
+.foot_bottom{width: 1200px;height: auto;margin:0 auto;text-align: center;font-size: 12px;color: white;padding-top: 40px;line-height: 26px}
+.foot_bottom span{padding-left: 20px;padding-right: 20px;}
+/* footer end */
+
+.rn{width: 56px; position: fixed;right: 0;bottom: 230px;z-index: 50;}
+.rn ul{width: 56px;height: auto;}
+.rn ul .i3{font-size: 30px;color: white;display: block;width: 56px;height: 30px;}
+.rn ul .ark{width: 56px;height: 68px;margin-bottom: 1px;background: #222222;text-align: center;display: block;color: white;font-size: 12px;padding-top: 5px}
+.rn ul .arm{width: 56px;height: 56px;margin-bottom: 1px;background: #222222;text-align: center;display: block;line-height: 56px;position: relative;}
+.rn ul .art{width: 56px;height: 56px;margin-bottom: 1px;background: #222222;text-align: center;display: block;line-height: 56px;}
+.rn ul .il1 img{width: 150px;height: 150px;position: absolute;top:75px;right: 60px;display: none}
+.rn ul .il1:hover img{display: block;}
+.rn ul .il .mask {width: 100%;height: 100%;background-color: #000;filter: alpha(opacity=60);-moz-opacity: .6;opacity: .6;position: fixed;top: 0;left: 0;z-index: 1000;display: none;}
+.rn ul .il .tan_lay{width: 600px;height: 600px;background: white; margin: 0 auto;position:fixed;top: 50%;left: 0;right: 0;margin-top:-300px;z-index: 2000;display: none;}
+.rn ul .il .tan_lay .close{ width: 40px; height: 40px; display: block; position: absolute; right: 2px; top: 2px;}
+.rn ul .il .tan_lay .close .i5{font-size: 40px;color: #666666}
+.rn ul .il:hover .mask{display: block;}
+.rn ul .il:hover .tan_lay{display: block;}
+.rn ul .il .tan_lay h1{font-size: 32px;color: black;text-align: center;margin-top: 50px;margin-bottom: 30px;}
+.rn ul .il .tan_lay img{width: 450px;height: 450px;margin: 0 auto;display: block}
+
+
+
+
+@font-face {
+  font-family: 'iconfont';  /* project id 1063550 */
+  src: url('http://at.alicdn.com/t/font_1063550_o15y4j3emw.eot');
+  src: url('http://at.alicdn.com/t/font_1063550_o15y4j3emw.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_1063550_o15y4j3emw.woff2') format('woff2'),
+  url('http://at.alicdn.com/t/font_1063550_o15y4j3emw.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_1063550_o15y4j3emw.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_1063550_o15y4j3emw.svg#iconfont') format('svg');
+}
+  .iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}

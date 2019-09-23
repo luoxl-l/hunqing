@@ -1,0 +1,29 @@
+<!--pages/cart/cart.wxml-->
+<view class="cart">
+  <!-- 产品 -->
+  <view class="allcarts">
+    <view data-index="{{index}}" animation="{{item.animationData}}" bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd" class="cart-item" wx:for="{{cartList}}">
+      <view class="i-left">
+        <view class="{{item.isSelect?'active': 'select'}}" bindtap="changeStatus" data-index="{{index}}"></view>
+        <image src="{{item.list_pic_url}}"></image>
+        <view class="desc">
+          <view>{{item.goods_name}}</view>
+          <view>￥{{item.retail_price}}</view>
+        </view>
+      </view>
+      <view class="i-right">X{{item.number}}</view>
+      <view class="delete" data-id="{{item.id}}" data-index="{{index}}" bindtap="deleteProduct">删除</view>
+    </view>
+  </view>
+  <!-- 下单 -->
+  <view class="xiadan">
+    <view class="x-left">
+      <view bindtap="selectAll" class="{{isAll?'active':'select'}}"></view>
+      <text>全选(0)</text>
+    </view>
+    <view class="x-right">
+      <text>￥{{totalPrice}}</text>
+      <view>下单</view>
+    </view>
+  </view>
+</view>

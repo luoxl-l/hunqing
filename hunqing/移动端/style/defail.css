@@ -1,0 +1,44 @@
+body{background: #f2f3f7;padding-bottom: 1rem;}
+
+
+header .icon-service-directory{color: #f55756;}
+header {border-bottom: 0.02rem solid #e8e8e8;position: sticky;top: 0;background: #ffffff;z-index: 20;}
+
+
+
+.banner { position: relative;width: 100%;height: 7.54rem;max-width: 7.5rem;min-width: 3.2rem;margin: 0 auto;z-index: 10;}
+.banner .swiper-container .swiper-slide {height: 100%;overflow: hidden;z-index: 1;}
+.banner .swiper-container .swiper-slide a {display: block;width: 100%;height: 7.54rem;}
+.banner .swiper-container .swiper-slide a img { width:100%;height: 100%;}
+.banner .swiper-pagination-bullets{bottom: 0.2rem;left: 0;position: absolute;z-index: 30;text-align: center;}
+.banner .swiper-pagination-bullets .swiper-pagination-bullet{background: #999999;display: inline-block;width: 0.1rem;height: 0.1rem;border-radius: 100%;}
+.banner .swiper-pagination-bullets .swiper-pagination-bullet-active{background: white}
+
+.box{height: 2.28rem;max-width: 7.5rem;min-width: 3.2rem;margin: 0 auto;z-index: 10;width: 100%;background: #ffffff;}
+.box .tit{height: 1.68rem;width: 100%;padding: 0 0.38rem;border-bottom: 0.01rem solid #f2f3f7;}
+.box .tit h3{width:6.9rem;font-size: 0.32rem;line-height: 0.86rem;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.box .tit p{width: 100%;font-size: 0.32rem;color: #f55756;line-height: 0.56rem}
+.box .tit del{font-size: 0.22rem;color: #aaa;margin-left: 0.3rem;}
+.box .bz{height: o.59rem;width: 100%;padding: 0 0.38rem;}
+.box .bz span{font-size: 0.26rem;color: #666666;line-height: 0.59rem;margin-right: 0.4rem;}
+.box .bz span img{height: 0.34rem;width: 0.34rem;display: inline-block;margin-right: 0.06rem;}
+
+.box1{height: 2.70rem;max-width: 7.5rem;min-width: 3.2rem;margin: 0 auto;z-index: 10;width: 100%;background: #ffffff;margin-top: 0.3rem;}
+.box1 p{font-size: 0.32rem;height: 0.9rem;width: 6.72rem;line-height: 0.9rem;margin-left: 0.38rem;}
+.box1 .p2{border-bottom: 0.01rem solid #f2f3f7;border-top: 0.01rem solid #f2f3f7;}
+.box1 p span{float: left;padding-right: 0.4rem;}
+.box1 p .rd{float: right;padding-right: 0;}
+.box1 p .s2{float: left;}
+
+
+.box2{height: auto;max-width: 7.5rem;min-width: 3.2rem;margin: 0 auto;z-index: 10;width: 100%;background: #ffffff;margin-top: 0.3rem;}
+.box2 img{width: 100%;height: auto;}
+
+.footer{width: 100%;height:auto;max-width: 7.5rem;min-width: 3.2rem;position: fixed;bottom: 0;left: 50%;transform: translateX(-50%);z-index: 20;}
+.footer a{width: 2.5rem;height: 1rem;display: block;font-size: 0.36rem;line-height: 1rem;text-align: center;float: left;}
+.footer .icon-gouwuche{color: #f55756;font-size: 0.4rem;line-height: 1rem;}
+.footer i{display: inline-block;}
+.footer .a1{color: #f55756;background: white;}
+.footer .a2{color: white;background:orangered ;}
+.footer .a3{color: white;background:red ;}
+

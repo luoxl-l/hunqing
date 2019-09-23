@@ -1,0 +1,52 @@
+.box{width: 100%;background: url(../images/glbg.jpg) no-repeat top center;overflow: hidden; padding-bottom: 20px;height: 440px;}
+.box .bm{width: 1200px;height: 300px;margin: 0 auto;background: url(../images/gl1.png);background-size:1200px auto;margin-top: 80px;box-shadow: 0 5px 20px 4px rgba(0,0,0,0.04);border-radius: 6px;}
+.box .bm dl{width: 264px;float: left;margin-left: 54px;height: 300px;margin-right: 77px}
+.box .bm dl dt{width: 100%;font-size: 24px;font-weight: bold;line-height: 24px;margin-top: 70px;}
+.box .bm dl dd{width: 264px;margin-top: 40px;}
+.box .bm dl dd a{width: 64px;line-height: 40px;float: left;margin-right: 24px;color: #333333;font-size: 16px;}
+.box .bm dl dd a:hover{color: #f55756;}
+
+.box1{width: 100%; height: 260px;background-image: linear-gradient(to bottom,#f5f5f5,white);text-align: center;font-size: 32px;padding-top: 80px;}
+.box1 .b1m{width: 1120px;height: 180px;background: white;box-shadow: 0 0 20px 1px #f6f6f6;border-radius: 6px;margin: 0 auto;padding: 0 40px;}
+.box1 .b1m ul{width: 1200px;height: 180px;}
+.box1 .b1m ul li{float: left;width: 100px;margin: 24px 20px 0 20px;}
+.box1 .b1m ul li a{color: #666666;}
+.box1 .b1m ul li a span{display: inline-block;text-align: center;margin-top: 28px;}
+.box1 .b1m ul li:hover a span{width: 100px;height: 100px;border-radius: 100%;background: #f55756;line-height: 100px;margin-top:0px;text-align: center;}
+.box1 .b1m ul li a em{display: inline-block;width: 100px;text-align: center;font-size: 16px;color: #333333;line-height: 16px;}
+.box1 .b1m ul li a span i{width: 36px;height: 36px;background: url(../images/glbc.png) no-repeat;display: inline-block;}
+.box1 .b1m ul li .icn1{background-position: 0px 0;}
+.box1 .b1m ul li:hover .icn1{background-position: -64px 0;}
+.box1 .b1m ul li .icn2{background-position: -129px 0;}
+.box1 .b1m ul li:hover .icn2{background-position: -193px 0;}
+.box1 .b1m ul li .icn3{background-position: -255px 0;}
+.box1 .b1m ul li:hover .icn3{background-position: -318px 0;}
+.box1 .b1m ul li .icn4{background-position: -445px 0;}
+.box1 .b1m ul li:hover .icn4{background-position: -380px 0;}
+.box1 .b1m ul li .icn5{background-position: -572px 0;}
+.box1 .b1m ul li:hover .icn5{background-position: -508px 0;}
+.box1 .b1m ul li .icn6{background-position: -703px 0;}
+.box1 .b1m ul li:hover .icn6{background-position: -640px 0;}
+.box1 .b1m ul li .icn7{background-position: -828px 0;}
+.box1 .b1m ul li:hover .icn7{background-position: -764px 0;}
+.box1 .b1m ul li .icn8{background-position: -955px 0;}
+.box1 .b1m ul li:hover .icn8{background-position: -891px 0;}
+
+
+.box2{width: 1200px;height:auto;margin: 0 auto;}
+.box2 h5{font-weight: bold;display: inline-block;padding-top: 20px;width: 100%;height: 55px;margin-bottom: 0px;font-size: 32px;color: black;background: url(../images/tb.png) no-repeat;}
+.box2 .txt{width: 1200px;height: 174px;border-bottom: 1px solid #e8e8e8;margin-top: 30px;}
+.box2 .txt .im{width: 230px;height: 144px;float: left;margin-right: 30px;margin-bottom: 30px;display: block;opacity: 0.8;}
+.box2 .txt .im:hover{opacity: 1;}
+.box2 .txt ul{width: 910px;height: 144px;float: left;margin-right: 30px;margin-bottom: 30px;}
+.box2 .txt ul .i1{width: 910px;height: 24px;}
+.box2 .txt ul .i1 .bk_tg{width: 60px;height: 24px;line-height: 24px;overflow: hidden;margin-right: 12px;border-radius: 3px;font-size: 12px;color: white;text-align: center;background: #fe7e33;float: left;}
+.box2 .txt ul .i1 .bk_tg:hover{opacity: 0.8;}
+.box2 .txt ul .i1 .bk_title{width: 750px;float: left;line-height: 24px;font-size: 20px;color: black;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;font-weight: bold;}
+.box2 .txt ul .i1 .bk_title:hover{color: #f55756}
+.box2 .txt ul .i2{width: 910px;color: #666666;font-size: 12px;line-height: 14px;height: 14px;margin-top: 15px;}
+.box2 .txt ul .i3{width: 910px;height: 64px;}
+.box2 .txt ul .i3 a{display: block;width: 100%;font-size: 14px;color: #444444;line-height: 24px;margin-top: 15px;overflow: hidden;height: 48px;text-overflow: ellipsis;}
+.box2 .txt ul .i4{width: 910px;}
+.box2 .txt ul .i4 a{font-size: 12px;color: #13acec;line-height: 12px;margin-right: 15px;height: 12px;display: block;width: auto}
+.box2 .txt ul .i4 a:hover{text-decoration: underline;}

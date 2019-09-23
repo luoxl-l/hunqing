@@ -1,0 +1,45 @@
+<!--pages/detail/detail.wxml-->
+<import src="../../wxParse/wxParse.wxml"/>
+<view class="detail">
+  <!-- 轮播图 -->
+  <swiper class="sw" indicator-dots="true" autoplay="true" circular="true">
+    <swiper-item wx:for="{{productInfo.gallery}}">
+      <image src="{{item.img_url}}"></image>
+    </swiper-item>
+  </swiper>
+  <!-- 请添加规格和数量 -->
+  <view class="" bindtap="showModal">
+    请添加规格和数量
+  </view>
+  <view class="modal" wx:if="{{isShow}}">
+    <view class="mc" bindtap="closeModal"></view>
+    <view class="rect" animation="{{animation}}">
+      <view>
+        <view class="add" bindtap="addNum">+</view>
+        <input type="text" bindblur="changeNum" style="text-align:center" value="{{inputVal}}"/>
+        <view class="sub" bindtap="subNum">-</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 加入購物車 -->
+  <view class="buy">
+    <view class="star"></view>
+    <view class="gou">
+      <label>{{allcartNum}}</label>
+      <image src="../../images/ic_menu_shoping_nor.png"></image>
+    </view>
+    <view class="now" bindtap="nowBuy">
+      立即購買
+    </view>
+    <view class="join" bindtap="joinCart">加入購物車</view>
+  </view>
+  <!-- 
+  商品详情
+   -->
+   <view class="imgs">
+    <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+   </view>
+   
+
+</view>

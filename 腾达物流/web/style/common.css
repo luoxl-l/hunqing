@@ -1,0 +1,75 @@
+﻿
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,
+table,th,td,header,nav,aside,article,section{margin:0;padding:0;} 
+table {border-collapse:collapse;border-spacing:0;} 
+fieldset,img {border:0;} 
+em,strong,th,i,b {font-style:normal;font-weight:normal;} 
+ol,ul,li {list-style:none} 
+h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;} 
+:focus{ outline: none;}
+a{text-decoration: none;cursor: pointer;outline: none}
+a:link,a:visited{text-decoration: none;color: black;outline: none}
+a:hover{ color:  #bc1d1d;outline: none}
+.fl{ float: left;}
+.fr{float: right;}
+.f14{ font-size: 14px;}
+.f16{ font-size: 16px;}
+.clear{ clear: both;}
+.clearfix:after{content: "";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix{ zoom: 1;/*触发低版本浏览器的after属性*/}
+body{height: auto;font-family: "微软雅黑",Arial;min-width: 1200px;overflow: scroll;}
+
+
+/* header*/
+.header{width: 1920px;height: 120px;background:#2e3959;position: relative;left: 50%;transform: translateX(-50%); z-index:200;}
+.header .header_bar{margin: 0 auto;width: 1170px;height: 100%;}
+.header img{height: 72px;width: auto;display: block;padding-top: 24px;float: left;}
+.header .nav{float: left;margin-left: 146px;height: 30px;margin-top: 48px;width: auto;}
+.header .nav dl{float:left;width: auto;height: auto;color: white;font-size: 20px;padding: 0 18px;}
+.header .nav dl dt{padding-bottom:46px;position: relative;}
+.header .nav dl dd{font-size: 14px;height: 28px;line-height: 28px;background-color: white;text-align: center;}
+.header .nav dt a{color: white}
+.header .nav dt #action{color: #bc1d1d}
+.header .nav dt #action::after{content: "";width: 100%;height: 2px;background: #bc1d1d;display: block;position: absolute;left: 0;top: 50px;}
+.header .nav dl:hover dt a{color: #bc1d1d}
+.header .nav dl:hover dt a::after{content: "";width: 0;height: 2px;background: #bc1d1d;display: block;position: absolute;left: 0;top: 50px;animation:size 3s;animation-fill-mode: forwards;}
+.header .nav dt #action{color: #bc1d1d}
+.header .nav dt #action::after{content: "";width: 100%;height: 2px;background: #bc1d1d;display: block;position: absolute;left: 0;top: 50px;}
+.header .nav dd{display: none}
+.header .nav dl:hover dd{display: block;}
+.header .zd{color: white;float: right;width: auto;height: 20px;margin-top: 48px;}
+.header .zd .icon-denglu-copy{font-size: 24px;float: left;}
+.header .zd a{color: white;font-size: 20px;float: left;display: block;margin-left: 8px;}
+.header .zd a:hover{color: #bc1d1d;}
+.header .zd #a1{position: relative;}
+.header .zd #a1::after{content: "/";color: white;font-size: 20px;display: block;height: 20px;width: 20px;position: absolute;top:0;left: 40px;}
+
+
+/* footer */
+.footer{width: 1920px;height: 528px;background:#2e3959;position: relative;left: 50%;transform: translateX(-50%);}
+.footer .footer_bar{margin: 0 auto;width: 1170px;height: 100%;}
+.footer .ft1{padding-top: 140px;height: 150px;}
+.footer .ft1 dl{float: left;margin-right: 74px;height: 150px;}
+.footer .ft1 dl dt{color: #ffffff;font-size: 18px;margin-bottom: 28px;}
+.footer .ft1 dl dd{color: #b9bdca;font-size: 14px;margin-bottom: 8px;}
+.footer .ft1 dl dd a{color: #b9bdca;font-size: 14px;}
+.footer .ft1 dl a:hover{color: #bc1d1d;}
+.footer .ft1 .ic{width: 180px;height: 24px;float: left;margin-top: 60px;}
+.footer .ft1 .ic .iconfont{font-size: 24px;float: left;margin-right: 26px;color: #b6bccc;}
+.footer .ft1 .ic .iconfont:hover{color: #bc1d1d;}
+.footer .ft1 .er{width: 100px;height: 150px;float: left;text-align: center;margin-left: 34px;}
+.footer .ft1 .er img{height: 100px;width: 100px;display: block;margin-top: 10px;}
+.footer .ft1 .er a{color: #dddddd;font-size: 16px;display: block;margin-top: 10px;}
+.footer .ft1 .er a:hover{color: #bc1d1d;}
+.footer .ft2{margin-top: 54px;}
+.footer .ft2 p{width: auto;text-align: center;color: #8c94ad;height: 32px;line-height: 32px;}
+.footer .ft2 a{font-size: 16px;color: #8c94ad;}
+.footer .ft2 a:hover{color: #bc1d1d;}
+
+
+@keyframes size{
+    /* 0%{transform: scale(0);}
+    100%{transform: scale(1);} */
+    0%{width: 10%}
+    100%{width: 100%} 
+}
